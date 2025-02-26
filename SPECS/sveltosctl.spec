@@ -1,6 +1,6 @@
 Name:           sveltosctl
 Version:        0.49.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Project Sveltos cmd line tool
 
 License:        Apache-2.0
@@ -31,8 +31,6 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %changelog
 * Wed Feb 26 2025 MagnusRC <magnusrc@protonmail.com>
 - Bump to v0.49.0
-* Tue Feb 18 2025 MagnusRC <magnusrc@protonmail.com>
-- Bump to v0.48.0
 * Mon Feb 10 2025 MagnusRC <magnusrc@protonmail.com>
 - Bump to v0.47.0
 * Fri Feb 07 2025 MagnusRC <magnusrc@protonmail.com>
