@@ -1,5 +1,5 @@
 Name:           lazygit
-Version:        0.46.0
+Version:        0.47.2
 Release:        2%{?dist}
 Summary:        simple terminal UI for git commands
 
@@ -28,6 +28,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Wed Feb 26 2025 MagnusRC <magnusrc@protonmail.com>
+-  Bump to version v0.47.2
 * Sat Feb 15 2025 MagnusRC <magnusrc@protonmail.com>
 -  Bump to version v0.46.0
 * Sat Feb 08 2025 MagnusRC <magnusrc@protonmail.com>
