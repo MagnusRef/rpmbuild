@@ -1,5 +1,5 @@
 Name:           sveltosctl
-Version:        0.48.0
+Version:        0.49.0
 Release:        1%{?dist}
 Summary:        Project Sveltos cmd line tool
 
