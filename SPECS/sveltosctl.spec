@@ -1,6 +1,6 @@
 Name:           sveltosctl
-Version:        0.49.0
-Release:        3%{?dist}
+Version:        0.50.0
+Release:        1%{?dist}
 Summary:        Project Sveltos cmd line tool
 
 License:        Apache-2.0
