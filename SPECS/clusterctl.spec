@@ -1,5 +1,5 @@
 Name:           clusterctl
-Version:        1.9.5
+Version:        1.9.6
 Release:        1%{?dist}
 Summary:        CLI tool for Cluster API
 
@@ -29,6 +29,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Sat Apr 12 2025 MagnusRC <magnusrc@protonmail.com>
+- Bump to 1.9.6
 * Tue Feb 18 2025 MagnusRC <magnusrc@protonmail.com>
 - initial package release
 
