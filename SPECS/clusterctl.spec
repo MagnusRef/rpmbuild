@@ -1,6 +1,6 @@
 Name:           clusterctl
 Version:        1.10.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        CLI tool for Cluster API
 
 License:        Apache-2.0
@@ -29,6 +29,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Sat May 3 2025 MagnusRC <magnusrc@protonmail.com>
+- Bump to 1.10.1
 * Sat Apr 12 2025 MagnusRC <magnusrc@protonmail.com>
 - Bump to 1.9.6
 * Tue Feb 18 2025 MagnusRC <magnusrc@protonmail.com>
