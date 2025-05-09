@@ -1,5 +1,5 @@
 Name:           k9s
-Version:        0.50.4
+Version:        0.50.5
 Release:        1%{?dist}
 Summary:        Kubernetes CLI To Manage Your Clusters In Style!
 
@@ -31,6 +31,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Fri May 9 2025 MagnusRC <magnusrc@protonmail.com>
+- Bump to version v0.50.5
 * Sun Apr 20 2025 MagnusRC <magnusrc@protonmail.com>
 - Bump to version v0.50.4
 * Sat Apr 12 2025 MagnusRC <magnusrc@protonmail.com>
