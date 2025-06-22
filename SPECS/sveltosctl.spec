@@ -1,5 +1,5 @@
 Name:           sveltosctl
-Version:        0.53.0
+Version:        0.57.2
 Release:        1%{?dist}
 Summary:        Project Sveltos cmd line tool
 
@@ -29,6 +29,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Sun Jun 22 2025 MagnusRC <magnusrc@protonmail.com>
+- Bump to v0.57.2
 * Sat May 3 2025 MagnusRC <magnusrc@protonmail.com>
 - Bump to v0.53.0
 * Sun Apr 20 2025 MagnusRC <magnusrc@protonmail.com>

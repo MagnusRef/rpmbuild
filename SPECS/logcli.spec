@@ -1,6 +1,6 @@
 Name:           logcli
-Version:        3.4.3
-Release:        2%{?dist}
+Version:        3.5.1
+Release:        1%{?dist}
 Summary:        Log querying cli tool for Grafana Loki
 
 License:        Apache-2.0
@@ -29,6 +29,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Sun Jun 22 2025 MagnusRC <magnusrc@protonmail.com>
+- Bump to 3.5.1
 * Sat Apr 12 2025 MagnusRC <magnusrc@protonmail.com>
 - Bump to 3.4.3
 * Sat Feb 15 2025 MagnusRC <magnusrc@protonmail.com>
