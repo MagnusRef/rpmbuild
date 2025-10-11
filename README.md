@@ -1,15 +1,6 @@
 # rpmbuild
 
-rpm version control for my [Fedora copr projects](https://copr.fedorainfracloud.org/coprs/magnusrc/)
-
-## k9s
-
-[![Copr build status](https://copr.fedorainfracloud.org/coprs/magnusrc/k9s/package/k9s/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/magnusrc/k9s/package/k9s/)
-
-```bash
-sudo dnf copr enable magnusrc/k9s 
-sudo dnf install k9s 
-```
+RPM version control for my [Fedora copr projects](https://copr.fedorainfracloud.org/coprs/magnusrc/)
 
 ## lazygit
 
@@ -20,6 +11,14 @@ sudo dnf copr enable magnusrc/lazygit
 sudo dnf install lazygit 
 ```
 
+## clusterctl
+
+[![Copr build status](https://copr.fedorainfracloud.org/coprs/magnusrc/clusterctl/package/clusterctl/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/magnusrc/clusterctl/package/clusterctl/)
+
+```bash
+dnf copr enable magnusrc/clusterctl
+sudo dnf install clusterctl
+```
 ## logcli
 
 [![Copr build status](https://copr.fedorainfracloud.org/coprs/magnusrc/logcli/package/logcli/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/magnusrc/logcli/package/logcli/)
@@ -47,11 +46,3 @@ sudo dnf copr enable magnusrc/timoni
 sudo dnf install timoni
 ```
 
-## clusterctl
-
-[![Copr build status](https://copr.fedorainfracloud.org/coprs/magnusrc/clusterctl/package/clusterctl/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/magnusrc/clusterctl/package/clusterctl/)
-
-```bash
-dnf copr enable magnusrc/clusterctl
-sudo dnf install clusterctl
-```
