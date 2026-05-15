@@ -1,5 +1,5 @@
 Name:           lazygit
-Version:        0.58.1
+Version:        0.61.1
 Release:        1%{?dist}
 Summary:        simple terminal UI for git commands
 
