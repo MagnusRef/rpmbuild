@@ -1,5 +1,5 @@
 Name:           clusterctl
-Version:        1.11.2
+Version:        1.13.2
 Release:        1%{?dist}
 Summary:        CLI tool for Cluster API
 
