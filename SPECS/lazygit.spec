@@ -28,6 +28,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Sat May 16 2025 MagnusRC <magnusrc@protonmail.com>
+- Bump to version v0.61.1
 * Mon Jan 12 2025 MagnusRC <magnusrc@protonmail.com>
 -  Bump to version v0.58.1
 * Sat Oct 11 2025 MagnusRC <magnusrc@protonmail.com>

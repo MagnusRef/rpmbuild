@@ -29,6 +29,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Sat May 16 2025 MagnusRC <magnusrc@protonmail.com>
+- Bump to 1.13.2
 * Sat Oct 11 2025 MagnusRC <magnusrc@protonmail.com>
 - Bump to 1.11.2
 * Sun Jun 22 2025 MagnusRC <magnusrc@protonmail.com>
