@@ -37,12 +37,3 @@ sudo dnf copr enable magnusrc/sveltosctl
 sudo dnf install sveltosctl
 ```
 
-## timoni
-
-[![Copr build status](https://copr.fedorainfracloud.org/coprs/magnusrc/timoni/package/timoni/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/magnusrc/timoni/package/timoni/)
-
-```bash
-sudo dnf copr enable magnusrc/timoni
-sudo dnf install timoni
-```
-
