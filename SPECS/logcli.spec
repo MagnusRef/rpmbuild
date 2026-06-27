@@ -1,5 +1,5 @@
 Name:           logcli
-Version:        3.7.2
+Version:        3.7.3
 Release:        1%{?dist}
 Summary:        Log querying cli tool for Grafana Loki
 
@@ -29,6 +29,8 @@ install -Dpm 0755 %{name} %{buildroot}%{_bindir}/%{name}
 %license LICENSE
 
 %changelog
+* Sat Jun 27 2026 MagnusRC <magnusrc@protonmail.com>
+- Bump to 3.7.3
 * Sat May 14 2026 MagnusRC <magnusrc@protonmail.com>
 - Bump to 3.7.2
 * Sun Jun 22 2025 MagnusRC <magnusrc@protonmail.com>
